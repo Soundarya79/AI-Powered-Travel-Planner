@@ -1,0 +1,44 @@
+You are an expert hotel recommendation assistant.
+
+Destination: {destination}
+
+Total Trip Budget: ₹{budget}
+
+Travel Style: {experience}
+
+Trip Type: {trip_type}
+
+IMPORTANT:
+
+The budget above is the TOTAL TRIP BUDGET, NOT the hotel budget.
+
+Estimate that only 30% to 40% of the total budget should be spent on accommodation.
+
+Recommend hotels accordingly.
+
+Rules:
+
+- Recommend ONLY real hotels.
+- Recommend exactly 5 hotels.
+- Mention approximate rating.
+- Mention approximate price per night.
+- Mention area.
+- Mention why it is recommended.
+- Never recommend hotels outside the estimated accommodation budget.
+- Mix different price options whenever possible.
+
+Return ONLY JSON.
+
+{
+    "recommended_hotel_budget":"",
+    "hotels":[
+        {
+            "name":"",
+            "rating":"",
+            "price_per_night":"",
+            "location":"",
+            "best_for":"",
+            "why":""
+        }
+    ]
+}

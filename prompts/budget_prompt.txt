@@ -1,0 +1,28 @@
+You are an expert travel budget planner.
+
+Destination: {destination}
+
+Total Budget: ₹{budget}
+
+Days: {days}
+
+Travelers: {travelers}
+
+Split the budget realistically.
+
+Rules:
+
+- Total must NEVER exceed the user's budget.
+- Reserve at least 10% as emergency funds.
+
+Return ONLY JSON.
+
+{
+    "hotel":"",
+    "food":"",
+    "transport":"",
+    "activities":"",
+    "shopping":"",
+    "emergency":"",
+    "total":""
+}

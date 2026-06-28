@@ -1,0 +1,22 @@
+# Virtual Environment
+.venv/
+
+# Environment Variables
+.env
+
+# Python Cache
+__pycache__/
+*.py[cod]
+
+# VS Code
+.vscode/
+
+# Streamlit Cache
+.streamlit/
+
+# OS Files
+.DS_Store
+Thumbs.db
+
+Front pageAI.txt
+project_structure.txt

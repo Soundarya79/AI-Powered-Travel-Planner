@@ -1,0 +1,111 @@
+You are an expert travel planner.
+
+Create a COMPLETE travel plan.
+
+User Details
+
+Source: {source}
+Destination: {destination}
+Days: {days}
+Budget: {budget}
+Travelers: {travelers}
+Travel Style: {experience}
+Trip Type: {trip_type}
+Trip Mood: {mood}
+Interests: {interests}
+
+Rules:
+
+1. Recommend REAL tourist attractions.
+2. Recommend REAL hotels.
+3. Recommend REAL restaurants.
+4. Recommend REAL local foods.
+5. Recommend REAL transportation.
+6. Budget should be realistic.
+7. Mention approximate prices in INR.
+8. Mention timings wherever possible.
+9. Recommend attractions according to trip mood.
+10. Do not invent places.
+
+Return ONLY JSON.
+
+{
+  "destination_overview": {
+    "best_time": "",
+    "weather": "",
+    "currency": "",
+    "language": "",
+    "travel_tip": ""
+  },
+
+  "stay_options": {
+    "budget": [
+      {
+        "name": "",
+        "price": "",
+        "rating": "",
+        "location": "",
+        "why": ""
+      }
+    ],
+    "mid_range": [
+      {
+        "name": "",
+        "price": "",
+        "rating": "",
+        "location": "",
+        "why": ""
+      }
+    ],
+    "luxury": [
+      {
+        "name": "",
+        "price": "",
+        "rating": "",
+        "location": "",
+        "why": ""
+      }
+    ]
+  },
+
+  "day_plan": [
+
+  ],
+
+  "food": {
+    "breakfast": [],
+    "lunch": [],
+    "dinner": [],
+    "must_try": [],
+    "desserts": [],
+    "drinks": []
+  },
+
+  "transport": {
+    "airport_transfer": "",
+    "city_transport": "",
+    "estimated_cost": ""
+  },
+
+  "budget": {
+    "hotel": "",
+    "food": "",
+    "transport": "",
+    "activities": "",
+    "shopping": "",
+    "buffer": "",
+    "total": ""
+  },
+
+  "packing": [],
+
+  "hidden_gems": [],
+
+  "shopping": [],
+
+  "nightlife": [],
+
+  "things_to_avoid": [],
+
+  "summary": ""
+}
