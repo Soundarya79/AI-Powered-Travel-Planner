@@ -11,6 +11,36 @@ This project provides an interactive travel planning experience where users ente
 - Hotel recommendations and trip report rendering
 - A responsive Streamlit interface for planning and previewing results
 
+## 📸 Project Screenshots
+
+### 🏠 Home Page
+
+![Home Page](screenshots/home.png)
+
+---
+
+### 📝 Travel Planner Form
+
+![Travel Planner](screenshots/planner.png)
+
+---
+
+### 🗺️ Generated Itinerary
+
+![Itinerary](screenshots/itinerary.png)
+
+---
+
+### 🏨 Hotel Recommendations
+
+![Hotels](screenshots/hotels.png)
+
+---
+
+### 📄 Trip Report
+
+![Trip Report](screenshots/report.png)
+
 ## Setup and Usage
 
 1. Clone the repository or open the project folder.

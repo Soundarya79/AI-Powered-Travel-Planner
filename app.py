@@ -96,11 +96,10 @@ st.markdown(
     unsafe_allow_html=True,
 )
 
-st.markdown('<section id="planner" class="booking-shell">', unsafe_allow_html=True)
+#st.markdown('<section id="planner" class="booking-shell">', unsafe_allow_html=True)
 st.markdown(
     """
     <div class="section-heading">
-        <span>Trip search</span>
         <h2>Where should VoyageAI take you?</h2>
         <p>Fill the details once. The page below turns into a complete travel website for your trip.</p>
     </div>
