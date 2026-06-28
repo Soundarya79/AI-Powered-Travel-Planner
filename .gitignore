@@ -11,12 +11,13 @@ __pycache__/
 # VS Code
 .vscode/
 
-# Streamlit Cache
+# Streamlit
 .streamlit/
 
 # OS Files
 .DS_Store
 Thumbs.db
 
+# Personal files
 Front pageAI.txt
 project_structure.txt
